@@ -1,0 +1,27 @@
+{
+  "name": "dicoding-webclock",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rian-gustandi/Dicoding-WebClock.git"
+  },
+  "author": "rian-gustandi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rian-gustandi/Dicoding-WebClock/issues"
+  },
+  "homepage": "https://github.com/rian-gustandi/Dicoding-WebClock#readme",
+  "dependencies": {
+    "jquery": "^3.5.1",
+    "moment": "^2.25.3"
+  },
+  "devDependencies": {
+    "http-server": "^0.12.3"
+  }
+}
