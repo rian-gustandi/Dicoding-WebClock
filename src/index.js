@@ -1,3 +1,9 @@
+
+
+import './style/style.css'
+import moment from 'moment'
+import $ from 'jquery'
+
 const displayTime = () => {
   moment.locale("id");
   $(".time").text(moment().format("LTS"));
